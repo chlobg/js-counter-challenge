@@ -1,0 +1,48 @@
+@use "variables" as *;
+
+.header {
+  background-color: $primary-bg;
+  padding: 15px 30px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  &__title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    font-size: 18px;
+    color: $text-color;
+  }
+
+  &__logo {
+    background-color: $primary-bg;
+    padding: 5px;
+    max-width: 100px;
+    border-radius: 8px;
+  }
+
+  .header__language {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .header__language-select {
+      padding: 6px;
+      font-size: 16px;
+    }
+
+    .header__language-icon {
+      max-width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: $white-bg;
+      object-fit: cover;
+    }
+  }
+}

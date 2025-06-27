@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <!-- 🔸 HEADER -->
+    <!-- HEADER -->
     <header class="header">
       <div class="header__container">
         <img
@@ -15,19 +15,30 @@
           alt="Counter App Logo"
           class="header__logo"
         />
+
+        <h1 class="header__title">Challenge JavaScript</h1>
+
         <div class="header__language">
-          <label for="language-select" class="header__language-label">🌐</label>
           <select id="language-select" class="header__language-select">
             <option value="en">English</option>
             <option value="vi">Tiếng Việt</option>
           </select>
+
+          <img
+            src="assets/images/header__images--languages.png"
+            alt="Language icon"
+            class="header__language-icon"
+          />
         </div>
       </div>
     </header>
 
-    <!-- 🔸 MAIN CONTENT -->
+    <!-- MAIN CONTENT -->
     <main class="counter">
-      <h1 class="counter__title">Counter App</h1>
+      <p class="counter__description" id="counter-description">
+        This is the challenge aimed at reviewing the basics of Javascript in
+        order to make a website interactive. In our case, a counter.
+      </p>
 
       <img
         src="assets/images/counter__images--character.png"
@@ -50,11 +61,13 @@
       </div>
     </main>
 
-    <!-- 🔸 FOOTER -->
+    <!-- FOOTER -->
     <footer class="footer">
-      <p class="footer__text">© 2025 Counter App. All rights reserved.</p>
+      <p class="footer__text">
+        © 2025 Counter App - Chloé. All rights reserved.
+      </p>
     </footer>
 
-    <script src="js/app.js"></script>
+    <script src="js/counterapp.js"></script>
   </body>
 </html>

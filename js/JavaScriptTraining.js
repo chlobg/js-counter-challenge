@@ -39,3 +39,7 @@ let Array = ["JS", "React", "Node"];
 for (let i = 0; i <= 2; i++) {
   console.log(Array[i]);
 }
+
+//4. Basic DOM & Events
+
+// Create a button that says "Say Hello" → when clicked, show alert("Hello!") => Made on javascripttraining.html

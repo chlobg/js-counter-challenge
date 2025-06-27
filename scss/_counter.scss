@@ -1,0 +1,61 @@
+@use "variables" as *;
+
+.counter {
+  background-color: $white-bg;
+  padding: 40px 20px;
+  text-align: center;
+
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: $text-color;
+  }
+
+  &__mascot {
+    width: 150px;
+    margin-bottom: 20px;
+    background-color: $white-bg;
+    border-radius: 10px;
+  }
+
+  &__display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: $text-color;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  &__btn {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    &--increment {
+      background-color: $button-green;
+    }
+
+    &--decrement {
+      background-color: $button-red;
+    }
+
+    &--reset {
+      background-color: $button-gray;
+    }
+  }
+
+  &__description {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    font-size: 16px;
+    color: $text-color;
+    line-height: 1.5;
+    padding: 15px;
+  }
+}

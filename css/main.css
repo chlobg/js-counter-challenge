@@ -1,3 +1,103 @@
+.header {
+  background-color: #fff8f1;
+  padding: 15px 30px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.header__title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+}
+.header__logo {
+  background-color: #fff8f1;
+  padding: 5px;
+  max-width: 100px;
+  border-radius: 8px;
+}
+.header .header__language {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header .header__language .header__language-select {
+  padding: 6px;
+  font-size: 16px;
+}
+.header .header__language .header__language-icon {
+  max-width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  object-fit: cover;
+}
 
+.counter {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.counter__title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+.counter__mascot {
+  width: 150px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.counter__display {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+.counter__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.counter__btn {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.counter__btn--increment {
+  background-color: #4caf50;
+}
+.counter__btn--decrement {
+  background-color: #f44336;
+}
+.counter__btn--reset {
+  background-color: #9e9e9e;
+}
+.counter__description {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  padding: 15px;
+}
+
+.footer {
+  background-color: #fff8f1;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer__text {
+  color: #333;
+  font-size: 14px;
+}
 
 /*# sourceMappingURL=main.css.map */
